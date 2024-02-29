@@ -1,0 +1,16 @@
+torch==2.1.2
+tensorboard
+transformers==4.36.2
+datasets==2.16.1
+accelerate==0.26.1
+evaluate==0.4.1
+bitsandbytes==0.42.0
+trl @ git+https://github.com/huggingface/trl@a3c5b7178ac4f65569975efadc97db2f3749c65e 
+peft @ git+https://github.com/huggingface/peft@4a1559582281fc3c9283892caea8ccef1d6f5a4f 
+# ninja
+# packaging
+# MAX_JOBS=4 pip install flash-attn --no-build-isolation
+# MAX_JOBS=4 flash-attn --no-build-isolation
+# python dataConvert-test.py
+# pip install git+https://github.com/huggingface/trl@a3c5b7178ac4f65569975efadc97db2f3749c65e --upgrade
+# pip install git+https://github.com/huggingface/peft@4a1559582281fc3c9283892caea8ccef1d6f5a4f 
